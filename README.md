@@ -11,11 +11,9 @@ The Driverless Car Assignment is an object-oriented program that relates to the 
 
 My approach to the development of the driverless car
 
-The development of all these scenarios werent easily than expected. <br>
-However with the help of the UML diagrams and the driverless car outline (link will be added), I had a basis for the development. During developing I needed to modify the UML class diagram in order to advance my ideas. It will be a major accomplishment to design the UML class diagram without modifying the classes and methods. 
+The development of all these scenarios werent easily than expected. However with the help of the UML diagrams and the driverless car outline (link will be added), I had a basis for the development. During developing I needed to modify the UML class diagram in order to advance my ideas. It will be a major accomplishment to design the UML class diagram and other diagrams without modifying the classes and methods. 
 
-
-
+My biggest challenge was the development of the first scenario. It is a object-oriented program where a user can register an account and log in with the registered account name and password. After the right entry the user can start the travel, update their profile, delete their account or log out of their account. All these features are accessible without interrupting the code through the loop `while True`. Since the methods are depended with each other the code achieved a higher level of complexity. Therefore the code needed to run and test many times until the desired features have been achieved.
 
 The development of all these scenarios werent easily than expected. However 
 ## Getting Started
