@@ -7,13 +7,16 @@ The Driverless Car Assignment is an object-oriented program that relates to the 
 3. Dealing with a traffic light
 4. Detecting obstacles
 
-## Description
+## Description & Approach
 
 My approach to the development of the driverless car
 
-The development of all these scenarios werent easily than expected. However with the help of the UML diagrams and the driverless car outline (link will be added), I had a basis for the development. During developing I needed to modify the classed and methods in order to advance my ideas. It will be a major accomplishment to design the UML class diagram and other diagrams without modifying the classes and methods in the development phase. 
+The development of all these scenarios werent easily than expected. However with the help of the UML diagrams and the driverless car outline (link will be added), I had a basis for the development. During developing I needed to modify the classes, methods and relationships in order to advance my ideas. It will be a major accomplishment to design the UML class diagram and other diagrams without modifying the classes and methods in the development phase. 
 
-My biggest challenge was the development of the first scenario. It is a object-oriented program where a user can register an account and log in with the registered account name and password. After the right entry the user can start the travel, update their profile, delete their account or log out of their account. All these features are accessible without breake the code through the loop `while True`. Since the methods are depended with each other the code achieved a higher level of complexity. Therefore the code needed to run and test many times until the desired features have been achieved.
+My biggest challenge was the development of the first scenario. It is a object-oriented program where a user can register an account and log in with the registered account name and password. After the right entry the user can start the travel, update their profile, delete their account or log out of their account. All these features are accessible without breaking the code through the loop `while True`. Since the methods are depended with each other the code achieved a higher level of complexity. Therefore the code needed to run and test many times until the desired features have been achieved. Also the unit test needed to modifiy in the right test order because of the dependation.
+
+The second scenario were develop with the help of State Transition Diagram 
+
 
 The development of all these scenarios werent easily than expected. However 
 ## Getting Started
