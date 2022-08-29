@@ -17,7 +17,7 @@ class TestUsing_unitest(unittest.TestCase):
         result = navi.update_destination()
         self.assertEqual(result, 'Berlin')
 
-    def test_delete_destination(self):
+    def test_x_delete_destination(self):
         result = len(navi.delete_destination())
         self.assertEqual(result, 0)
 
@@ -30,7 +30,7 @@ class TestUsing_unitest(unittest.TestCase):
         result = route.start_navigation(navi)
         self.assertEqual(result, 'start')
 
-    def test_start_navigation_canel(self):
+    def test_start_navigation_cancel(self):
         print('\nCancel the route \n')
         result = route.start_navigation(navi)
         self.assertEqual(result, 'cancel')

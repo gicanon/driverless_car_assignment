@@ -25,7 +25,7 @@ class TestUsing_unitest(unittest.TestCase):
         self.assertEqual(result, 'fail')
 
     def test5_login_logout(self):
-        print('\nLog in with your previously registered account to log out of your account \n')
+        print('\nLOG OUT OF YOUR ACCOUNT (Log in with your previously registered account) \n')
         result = u1.login()
         self.assertEqual(result, 'logout')
 
