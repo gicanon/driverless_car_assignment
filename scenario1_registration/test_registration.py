@@ -5,7 +5,7 @@ Unit test for the first driverless car scenario. Registration of an account.
 Import Unittest module:
     An automatic test runner module for testing code.
 Import the Driverless_Car and User classes from the registration.py file:
-    The code that needs to be tested
+    The code that needs to be tested.
 """
 
 import unittest

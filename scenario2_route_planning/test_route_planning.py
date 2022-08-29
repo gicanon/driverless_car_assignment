@@ -5,7 +5,7 @@ Unit test for the second driverless car scenario. Route planning.
 Import Unittest module:
     An automatic test runner module for testing code.
 Import the Route and Navigation classes from the route_planning.py file:
-    The code that needs to be tested
+    The code that needs to be tested.
 """
 
 import unittest 

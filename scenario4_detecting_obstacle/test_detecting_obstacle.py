@@ -6,7 +6,7 @@ Import Unittest module:
     An automatic test runner module for testing code.
 Import the Driverless_Car, Control_Car_Computer, Unknown, Vehicle, Pedestrian
 classes from the detecting_obstacle.py file:
-    The code that needs to be tested
+    The code that needs to be tested.
 """
 
 import unittest 

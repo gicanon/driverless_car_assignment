@@ -89,8 +89,8 @@ class User(Passenger):
             car: Information about the driverless car (Component class Driverless Car).
 
         Return:
-            start: Start the travel
-            quit: Quit the program
+            start: Start the travel.
+            quit: Quit the program.
         """
 
         while True:
@@ -192,11 +192,11 @@ class User(Passenger):
         """Method to verify the password
         
         Parameter:
-            user_list: list with the data of the user account
+            user_list: list with the data of the user account.
             
         Return:
-            True: Password is correct and login was successful
-            fail: Password is not correct and user quit the process
+            True: Password is correct and login was successful.
+            fail: Password is not correct and user quit the process.
             Method verify_password(): Next try to enter the password.
         """
 

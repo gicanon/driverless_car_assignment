@@ -6,7 +6,7 @@ Import Unittest module:
     An automatic test runner module for testing code.
 Import the Driverless_Car, GPS, Control_Car_Computer, Route, Camera and Traffic_light
 classes from the traffic_light.py file:
-    The code that needs to be tested
+    The code that needs to be tested.
 """
 
 import unittest 

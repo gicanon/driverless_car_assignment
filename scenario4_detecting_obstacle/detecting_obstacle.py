@@ -278,16 +278,14 @@ class Camera:
         print(f'Camera has detected a {obstacle.detect_obstacle()}')
 
     def traffic_light_colour(self, colour):
-        """Method for printing that the camera has detected colour of the traffic light.
-        """
+        """Method for printing that the camera has detected colour of the traffic light."""
 
         print(f'Traffic light is {colour.get_traffic_light_colour()}')
 
 class Sensor:
     """Sensor class
     
-    A super class for all driverless car sensors to detect obstacles.
-    """
+    A super class for all driverless car sensors to detect obstacles."""
 
     def detect_obstacle(self, obstacle):
         """Method for printing that a sensor has detected an obstacle."""
@@ -297,8 +295,7 @@ class Sensor:
 class Ultrasonic_Sensor(Sensor):
     """Ultrasonic Sensor class
     
-    A subclass of Sensor class for detecting obstacles by the driverless car's Ultrasonic sensor.
-    """
+    A subclass of Sensor class for detecting obstacles by the driverless car's Ultrasonic sensor."""
 
     def detect_obstacle(self, obstacle):
         """Method for printing that the Ultrasonic sensor has detected an obstacle."""
@@ -308,8 +305,7 @@ class Ultrasonic_Sensor(Sensor):
 class Radar_Sensor(Sensor):
     """Radar Sensor class
     
-    A subclass of Sensor class for detecting obstacles by the driverless car's Radar sensor.
-    """
+    A subclass of Sensor class for detecting obstacles by the driverless car's Radar sensor."""
 
     def detect_obstacle(self, obstacle):
         """Method for printing that the Radar sensor has detected an obstacle."""
@@ -319,8 +315,7 @@ class Radar_Sensor(Sensor):
 class Lidar(Sensor):
     """Lidar Sensor class
     
-    A subclass of Sensor class for detecting obstacles by the driverless car's Lidar sensor.
-    """
+    A subclass of Sensor class for detecting obstacles by the driverless car's Lidar sensor."""
 
     def detect_obstacle(self, obstacle):
         """Method for printing that the Lidar sensor has detected an obstacle."""
