@@ -11,14 +11,23 @@ The Driverless Car Assignment is an object-oriented program that relates to the 
 
 My approach to the development of the driverless car
 
-The development of all these scenarios werent easily than expected. However with the help of the UML diagrams and the driverless car outline (link will be added), I had a basis for the development. During developing I needed to modify the classes, methods and relationships in order to advance my ideas. It will be a major accomplishment to design the UML class diagram and other diagrams without modifying the classes and methods in the development phase. 
+Developing all these scenarios was not as easy as expected. However, with the help of the UML diagrams and the sketch of the driverless car (link is attached), I had a basis for development. During the development I had to change the classes, methods and relationships to push my ideas forward. It will be a great achievement to design the UML class diagram and other diagrams without changing the classes and methods in the development phase.
 
-My biggest challenge was the development of the first scenario. It is a object-oriented program where a user can register an account and log in with the registered account name and password. After the right entry the user can start the travel, update their profile, delete their account or log out of their account. All these features are accessible without breaking the code through the loop `while True`. Since the methods are depended with each other the code achieved a higher level of complexity. Therefore the code needed to run and test many times until the desired features have been achieved. Also the unit test needed to modifiy in the right test order because of the dependation.
+My biggest challenge was the development of the first scenario. It is an object-oriented programme in which a user can register an account and log in with the registered account name and password. After entering the correct information, the user can start the journey, update their profile, delete their account or log out of their account. All these functions are accessible without the code being interrupted through the `while true` loop. Because the methods are interdependent, the code has reached a higher level of complexity. Therefore, the code had to be executed and tested many times until the desired functions were achieved. The unit tests also had to be changed in the correct test order because of the dependencies.
 
-The second scenario were develop with the help of State Transition Diagram 
+The second scenario was developed using a state transition diagram. The user can search for his destination and calculate the route to start the navigation and finally the journey with the driverless car. It can be connected to the registration programme as the user has to enter his destination to start the journey. Thanks to the UML state transition diagram, I was able to develop the scenario easily. However, the special task was to store the destination in a stack data structure.
+
+Dealing with a traffic light scenario was also easy to develop using the UML sequence diagram. The special task was to calculate whether the car has to brake at the yellow traffic light or drive on. In the real scenario, the parameters of the class are automatically supplied by the driverless car. For the development of the scenario, however, I had to enter them manually.
+
+The last scenario was the detection of obstacles. For this scenario, I created an activity diagram that focuses on saving and deleting data when the vehicle detects objects.
+
+## A Design Proposal of Software to Support Operation of a Driverless Car
+
+Here you can find the design proposal with the UML diagrams for the development:
+
+https://github.com/gicanon/driverless_car_assignment/blob/029d30cbb969dff4dc9d2c8f82e1bd7fa28f47e2/A%20Design%20Proposal%20of%20Software%20to%20Support%20Operation%20of%20a%20Driverless%20Car.pdf
 
 
-The development of all these scenarios werent easily than expected. However 
 ## Getting Started
 
 ### Dependencies
