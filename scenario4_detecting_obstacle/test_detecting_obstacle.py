@@ -1,4 +1,4 @@
-"""Test Detecting Obstacle
+"""Test detecting obstacle file
 
 Unit test for the fourth driverless car scenario. Detecting Obstacle.
 

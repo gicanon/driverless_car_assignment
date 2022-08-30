@@ -1,4 +1,4 @@
-"""Test traffic light
+"""Test traffic light file
 
 Unit test for the third driverless car scenario. Dealing with the traffic light.
 

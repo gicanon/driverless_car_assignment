@@ -1,4 +1,4 @@
-"""Route Planning file
+"""Route planning file
 
 A file for demonstrate a navigation process scenario of a driverless car.
 It has a text-based user interface where the user is prompted 
