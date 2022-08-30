@@ -230,7 +230,6 @@ class Control_Car_Computer(Control_Database):
                 self.brake(car)
                 return 'brake'
 
-
 class Driverless_Car:
     """Driverless car class
     
@@ -244,9 +243,6 @@ class Driverless_Car:
     def __init__(self, brand, model):
         """Inits the Driverless Car class."""
         self.brand = brand
-        self.model = model
-            
-
 
 class GPS:
     """GPS class
